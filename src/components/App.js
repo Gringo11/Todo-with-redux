@@ -1,4 +1,4 @@
-import { Todo, TodoInput } from "../Actions/Action";
+import { Todo, TodoInput } from "../redux/action";
 import "../styles/App.css";
 
 function App() {

@@ -5,7 +5,6 @@ import but from "../image/Union.png";
 export const Todo = () => {
   const dispatch = useDispatch();
   const todos = useSelector((state) => state.todos);
-  console.log(todos);
   const RemoveTodo = (id) => {
     dispatch({
       type: "REMOVE_TODO",
